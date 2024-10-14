@@ -375,7 +375,7 @@ body>header>section {
     background-color: rgba(33, 49, 85, 0.106);
 }
 
-.footer-img {
+#footer-img {
     height: 100px;
     display: flex;
     justify-content: space-around;
