@@ -66,10 +66,6 @@ body>header>section {
     background-image: url('../assets/Hero-bg.png');
 }
 
-/* section {
-    border: 2px solid black;
-} */
-
 .banner-container {
     display: flex;
     justify-content: center;
@@ -111,12 +107,11 @@ body>header>section {
 .web-development {
     width: 1000px;
     height: 1130px;
-    /* border: 1px solid black; */
     margin-bottom: 20px;
+    padding-top: 50px;
 }
 
 .section-info {
-    /* border: 1px solid black; */
     margin: 60px 70px;
 }
 
@@ -214,13 +209,11 @@ body>header>section {
     display: flex;
     justify-content: space-between;
     gap: 70px;
-    /* margin-bottom: 40px; */
 }
 
 .inspiration-section {
     width: 1000px;
     height: 730px;
-    border: 1px solid black;
     margin-bottom: 50px;
 }
 
@@ -247,7 +240,6 @@ body>header>section {
 .target-section {
     width: 1000px;
     height: 550px;
-    border: 1px solid black;
     margin-bottom: 50px;
 }
 
@@ -308,4 +300,94 @@ body>header>section {
     padding: 20px;
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05);
+}
+
+.support-section {
+    background-image: url('../assets/handshake.jpg');
+    width: 1000px;
+    height: 420px;
+    border: 1px solid black;
+    margin-bottom: 100px;
+    border-radius: 16px;
+}
+
+.support-heading {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+.support-paragraph {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 25px;
+}
+
+.input-field {
+    width: 530px;
+    height: 57px;
+    outline: none;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding-left: 30px;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0%;
+    margin-left: 150px;
+}
+
+.submit-field {
+    width: 120px;
+    height: 57px;
+    outline: none;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(33, 49, 85, 0.106);
+}
+
+.footer-img {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.footer-heading {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
 }
